@@ -1,1 +1,0 @@
-Mean, mode, median, quantile, skewness, kurtosis 
