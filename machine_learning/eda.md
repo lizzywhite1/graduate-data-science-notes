@@ -11,6 +11,28 @@ print(df.shape)
 df.info(verbose = True, show_counts = True)
 
 df.describe(include = 'all')
+
+df['category'].value_counts()
+```
+
+**Useful pandas methods/functions**
+
+Filtering and selecting 
+```python 
+df.query("animal == 'snake' &  age < 2")
+
+df.iloc[[3,4,5]]
+df.loc[['id_2']] # if that is the index 
+df.loc[['f'], ['age', 'visits']]
+
+df['age'].between(2,4) # or can use query
+```
+
+**Removing & replacing rows and columns**
+```python
+df.drop(columns = ['a', 'b'])
+
+df.drop([0,1]) # drop index 0 and 1 rows
 ```
 
 Following statistics can be used to measure **location** 
@@ -57,6 +79,10 @@ df.groupby('key').apply(func)
 
 # or equivalently 
 df["secondary_revenue"] / df.groupby("key")["total_revenue"].transform("sum")
+
+# can use a pivot table 
+
+# also crosstab can be useful for getting counts of two different categories
 ```
 
 When working with categorical data we can use 
