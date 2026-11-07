@@ -1,4 +1,3 @@
-## Tree Based Methods 
 ### Decision Trees
 Decision trees are inteperable and simple algorithms 
 which split the predictor space into regions, wherein the mean of the training target values is the prediction for an unlabelled observations. The learning algorithm aims to find the best splits of the predictor space which minimises the loss.
