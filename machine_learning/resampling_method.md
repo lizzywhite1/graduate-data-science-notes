@@ -46,14 +46,14 @@ LOOCV produces approximately unbiased estimates of the test error rate, making i
 
 LOOCV has a higher variance than k-fold CV. LOOCV is in effect averaging the outputs of $n$ fitted models, each trained on almost identitical datasets. Hence, model outputs are highly positively correlated. As the mean of highly correlated results, has higher variance than the mean of results which are less correlated with one another, k-fold CV tends to have lower variance. 
 
-### Cross-Validation Considerations
-
-
 ## Bootstrap
-Widely used technique to quantify the uncertainty associated with a given sample estimate. The bootstrap mimics the population distribution by resampling with replacement from the sample. 
+Widely used technique to quantify the uncertainty associated with a given sample estimate. The bootstrap mimics the population distribution by resampling with replacement from the sample, $B$ times.
 
 **Proof**
 
 How many bootstrapped datasets are possible, how many unique ones?
+## Permutation Tests 
+
+
 
 
