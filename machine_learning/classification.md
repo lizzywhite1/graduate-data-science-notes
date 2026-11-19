@@ -219,6 +219,11 @@ These two approaches are more sensitive to node purity then misclassifcation err
 - Lower predictive accuracy due to overfitting 
 - Not robust 
 
+### Random Forests & Gradient Boosted Trees 
+See ensemble methods.
+
+
+
 
 
 
