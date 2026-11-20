@@ -29,6 +29,7 @@ Some techniques include
 1. **Variance or Mean Absolute Deviation**: remove features with low to zero variance ie. constant or quasi-constant features. Scale dependent ensure data is scaled before hand. 
 2. **Correlation**: remove features that are highly correlated with one another as one will be redundant. Pearson correlation coeffcient measures the linear relationship between two variables. Spearman looks for monotonic relationships. 
     - Caveat: Will miss non-monotonic relationships like parabolic ones. Also Pearsons is influenced by outliers, spearman is not. 
+
 3. **Information Gain/Mutal Dependence/Mutual Infomation**: How much does knowing X reduce uncertainty about Y. Zero if X and Y are independent, will detect non-monotonic/non-linear relationships. How $p$ is estimated depends on whether $X$ is discrete (contingency tables) or continuous (various methods). 
 
 $$
